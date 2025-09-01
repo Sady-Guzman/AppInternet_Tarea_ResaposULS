@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Los Resapos – Portal ULS</title>
+
+    <!-- Archivos opcionales para tu CSS/JS -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- <script defer src="app.js"></script> -->
+</head>
+
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <!-- Encabezado / Navbar -->
+    <header class="site-header" role="banner">
+        <div class="container header__inner">
+            <h1 class="logo">
+                <a href="#">Los Resapos</a>
+                <span class="logo-mark" aria-hidden="true">·</span>
+            </h1>
+
+            <nav class="site-nav" aria-label="Principal">
+                <ul class="menu">
+                    <li><a href="#" class="is-active">Inicio</a></li>
+                    <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+                    <li><a href="#contacto">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido">
+        <!-- Hero / Bienvenida -->
+        <section class="hero" aria-labelledby="titulo-bienvenida">
+            <div class="container hero__inner">
+                <h2 id="titulo-bienvenida">BIENVENIDOS</h2>
+                <p>
+                    Este sitio está diseñado para centralizar y difundir información
+                    relevante de la Universidad de La Serena. Aquí encontrarás noticias,
+                    actividades, logros estudiantiles y comunicados oficiales que
+                    fortalecen la vida universitaria.
+                </p>
+            </div>
+        </section>
+
+        <!-- Tarjetas -->
+        <section class="section-cards" aria-label="Categorías destacadas">
+            <div class="container cards__grid">
+                <!-- Card 1 -->
+                <article class="card">
+                    <figure class="card__media">
+                        <!-- Reemplaza con tu imagen -->
+                        <img src="img/uls.png" alt="Escudo de la Universidad de La Serena">
+                    </figure>
+                    <h3 class="card__title">Actualizaciones oficiales</h3>
+                    <p class="card__text">
+                        Actualizaciones oficiales de la universidad, comunicados importantes
+                        y anuncios académicos.
+                    </p>
+                    <p class="card__actions">
+                        <a href="#" class="btn">Detalles</a>
+                    </p>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="card">
+                    <figure class="card__media">
+                        <!-- Reemplaza con tu imagen -->
+                        <img src="img/mascota.png" alt="Ilustración de mascota universitaria">
+                    </figure>
+                    <h3 class="card__title">Proyectos y vida universitaria</h3>
+                    <p class="card__text">
+                        Proyectos, eventos y actividades organizadas por y para estudiantes,
+                        que reflejan la vida universitaria.
+                    </p>
+                    <p class="card__actions">
+                        <a href="#" class="btn">Detalles</a>
+                    </p>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="card">
+                    <figure class="card__media">
+                        <!-- Reemplaza con tu imagen -->
+                        <img src="img/etc.png" alt="Icono genérico de logros">
+                    </figure>
+                    <h3 class="card__title">ETC</h3>
+                    <p class="card__text">
+                        Reconocimientos, premios y noticias sobresalientes que marcan hitos
+                        en la comunidad universitaria.
+                    </p>
+                    <p class="card__actions">
+                        <a href="#" class="btn">Detalles</a>
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Secciones de anclaje para el menú (contenido mínimo, rellena luego) -->
+    <section id="sobre-nosotros" hidden aria-hidden="true"></section>
+    <section id="contacto" hidden aria-hidden="true"></section>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <small>© Universidad de La Serena — Portal “Los Resapos”.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
