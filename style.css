@@ -637,7 +637,7 @@ html {
     width: 80px;
     height: 80px;
     margin-bottom: 1.5rem;
-    filter: brightness(0) invert(1); /* Hacer la imagen blanca */
+    /* filter: brightness(0) invert(1); */ /* Hacer la imagen blanca */
 }
 
 .page-hero__title {
