@@ -140,7 +140,7 @@
                     <div class="contact__form">
                         <h3>¡Mándanos un mensaje!</h3>
                         
-                        <form class="contact-form">
+                        <form class="contact-form" action="https://formspree.io/f/xvgbypaj" method="POST">
                             <div class="form-row">
                                 <div class="form-group">
                                     <label for="nombre">Nombre</label>
@@ -161,6 +161,12 @@
                                 <label for="mensaje">Tu mensaje</label>
                                 <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje o sugerencia..." required></textarea>
                             </div>
+
+                            <!-- Redirección después de enviar -->
+                            <input type="hidden" name="_redirect" value="https://tusitio.com/gracias.html">
+                            
+                            <!-- Honeypot anti-spam -->
+                            <input type="text" name="_gotcha" style="display:none">
                             
                             <button type="submit" class="btn btn--primary">Enviar</button>
                         </form>
@@ -180,5 +186,6 @@
         </div>
     </footer>
 </body>
+
 
 </html>
