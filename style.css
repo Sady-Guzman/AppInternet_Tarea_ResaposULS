@@ -33,7 +33,7 @@ html {
 body {
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #2541bd 0%, #40cb4d 100%);
     min-height: 100vh;
     color: #333;
 }
@@ -78,12 +78,6 @@ body {
     transform: scale(1.1) rotate(5deg);
 }
 
-.logo-mark {
-    color: #667eea;
-    font-size: 1.5rem;
-    margin-left: 4px;
-}
-
 /* Navegación del menú - VERSION MEJORADA */
 .site-nav .menu {
     display: flex;
@@ -93,7 +87,7 @@ body {
 
 .site-nav a {
     text-decoration: none;
-    color: #444;
+    color: #3538bd;
     font-weight: 600;
     padding: 0.5rem 1rem;
     border-radius: 25px;
@@ -111,7 +105,7 @@ body {
 
 /* Hero */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #336ba8 0%, #3f57bf 100%);
     color: white;
     padding: 8rem 1rem 6rem;
     text-align: center;
@@ -248,7 +242,7 @@ body {
 
 .btn {
     display: inline-block;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #667eea, #3538bd);
     color: white;
     text-decoration: none;
     padding: 0.8rem 2rem;
@@ -278,7 +272,7 @@ body {
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 15px 40px rgba(0,0,0,0.3);
-    background: linear-gradient(45deg, #5a6fd8, #6a4190);
+    background: linear-gradient(45deg, #667eea, #3538bd);
 }
 
 /* Footer */
@@ -323,7 +317,7 @@ body {
     overflow: hidden;
 }
 
-.news-featured__media {
+/*.news-featured__media { <- Al activar esto se achica la imágen de la noticia destacada
     width: 100%;
     height: 250px;
     background: #667eea;
@@ -332,7 +326,7 @@ body {
     justify-content: center;
     color: white;
     font-size: 1.2rem;
-}
+}*/
 
 .news-featured__media img {
     width: 100%;
@@ -372,7 +366,7 @@ body {
 }
 
 .news-item {
-    background: #667eea;
+    background: #5975e8;
     color: white;
     padding: 1.5rem;
     border-radius: 8px;
@@ -413,7 +407,7 @@ body {
     margin-bottom: 2rem;
     color: #333;
     font-weight: 900;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #5946da, #17b321);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -566,7 +560,7 @@ body {
 }
 
 .btn--primary {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #22b32a, #328139);
     color: white;
     align-self: flex-start;
     padding: 1rem 2.5rem;
@@ -575,13 +569,19 @@ body {
     cursor: pointer;
 }
 
+.btn--primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    background: linear-gradient(45deg, #22b32a, #328139);
+}
+
 .contact__mascot {
     width: 180px;
     height: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: white; /* CAMBIADO A BLANCO */
+    background: white;
     border-radius: 50%;
     /* backdrop-filter: blur(20px); REMOVIDO porque ya no es necesario */
     border: 2px solid rgba(255, 255, 255, 0.3);
@@ -697,7 +697,7 @@ html {
 }
 
 .category-card {
-    background: white;
+    background: rgb(255, 255, 255);
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     padding: 2rem;
@@ -763,7 +763,7 @@ html {
 
 .news-category {
     background: #e8f2ff;
-    color: #667eea;
+    color: #3756e2;
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-weight: 500;
@@ -792,7 +792,7 @@ html {
 }
 
 /* Placeholder para imagen principal */
-.placeholder-image {
+.placeholder-image { /* huh */
     width: 100%;
     height: 100%;
     background: linear-gradient(135deg, #667eea, #764ba2);
@@ -806,7 +806,7 @@ html {
 
 /* Hero de página específica */
 .page-hero {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #336ba8  , #3f57bf );
     color: white;
     padding: 4rem 0;
     text-align: center;
@@ -895,7 +895,7 @@ html {
     transform: scale(1.1);
 }
 
-.modal__header {
+.modal__header { /* para el header de noticias?*/
     position: relative;
     height: 280px;
     background: linear-gradient(135deg, #667eea, #764ba2);
@@ -908,7 +908,7 @@ html {
     object-fit: cover;
 }
 
-.modal__header-placeholder {
+.modal__header-placeholder { /* header de color placeholder para noticias?*/
     width: 100%;
     height: 100%;
     display: flex;
@@ -927,7 +927,7 @@ html {
 }
 
 .modal__date {
-    color: #667eea;
+    color: #3756e2;
     font-size: 0.9rem;
     font-weight: 600;
     text-transform: uppercase;
