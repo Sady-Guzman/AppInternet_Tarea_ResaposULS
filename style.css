@@ -78,7 +78,7 @@ body {
     transform: scale(1.1) rotate(5deg);
 }
 
-/* Navegación del menú - VERSION MEJORADA */
+/* Navegación del menú */
 .site-nav .menu {
     display: flex;
     gap: 2rem;
@@ -317,7 +317,7 @@ body {
     overflow: hidden;
 }
 
-/*.news-featured__media { <- Al activar esto se achica la imágen de la noticia destacada
+/*.news-featured__media { <- al activar esto se achica la imágen de la noticia destacada
     width: 100%;
     height: 250px;
     background: #667eea;
@@ -427,16 +427,12 @@ body {
     font-size: 1.1rem;
 }
 
+/* Imágen Sobre nosotros*/
 .about__media {
     width: 100%;
-    height: 450px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    border-radius: 20px;
-    overflow: hidden;
-    display: flex;
+    height: 420px;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.2);
 }
 
 .about__media img {
@@ -1063,104 +1059,4 @@ html {
 .news-item__link:focus {
     outline: 3px solid #667eea;
     outline-offset: 2px;
-=======
-/* ---- Modal ---- */
-.modal {
-    position: fixed;
-    inset: 0;
-    display: none;
-}
-
-.modal.is-open {
-    display: grid;
-    place-items: center;
-    z-index: 999;
-}
-
-.modal__backdrop {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, .45);
-}
-
-.modal__dialog {
-    position: relative;
-    z-index: 1;
-    width: min(92vw, 720px);
-    max-height: 85vh;
-    overflow: auto;
-    background: #fff;
-    border-radius: 16px;
-    padding: 24px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, .25);
-}
-
-.modal__close {
-    position: absolute;
-    top: 10px;
-    right: 14px;
-    font-size: 28px;
-    line-height: 1;
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-}
-
-.modal__content small {
-    color: #6b7280;
-    display: block;
-    margin-bottom: 6px;
-}
-
-.modal__content h3 {
-    margin: 6px 0 12px;
-}
-
-/* (Opcional) mejorar enfoque accesible */
-.modal__close:focus,
-.news-item__link:focus {
-    outline: 2px solid #5b8def;
-    outline-offset: 2px;
-}
-
-/*modal*/
-.modal {
-    position: fixed;
-    inset: 0;
-    display: none;
-}
-
-.modal.is-open {
-    display: grid;
-    place-items: center;
-    z-index: 999;
-}
-
-.modal__backdrop {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, .45);
-}
-
-.modal__dialog {
-    position: relative;
-    z-index: 1;
-    width: min(92vw, 720px);
-    max-height: 85vh;
-    overflow: auto;
-    background: #fff;
-    border-radius: 16px;
-    padding: 24px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, .25);
-}
-
-.modal__close {
-    position: absolute;
-    top: 10px;
-    right: 14px;
-    font-size: 28px;
-    line-height: 1;
-    background: transparent;
-    border: 0;
-    cursor: pointer;
 }
